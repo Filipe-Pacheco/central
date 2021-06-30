@@ -47,19 +47,19 @@
                     </router-link>
                 </li>
                 <li>
-                    <router-link class="nav-link text-white" to="/biblioteca">
+                    <router-link class="nav-link text-white" to="/asdasdasd">
                     <i class="bi bi-shield-x"></i>
                     Cursos Livres
                     </router-link>
                 </li>
                 <li>
-                    <router-link class="nav-link text-white" to="/biblioteca">
+                    <router-link class="nav-link text-white" to="/bibasdasdlioteca">
                     <i class="bi bi-shield-x"></i>
                     Iniciação Científica
                     </router-link>
                 </li>
                 <li>
-                    <router-link class="nav-link text-white" to="/biblioteca">
+                    <router-link class="nav-link text-white" to="/asdas">
                     <i class="bi bi-shield-x"></i>
                     Portal Empregabilidade
                     </router-link>
