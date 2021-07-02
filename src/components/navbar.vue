@@ -45,6 +45,7 @@ header {
     transition: 0.3s ease-in-out;
     border-bottom: 1px solid var(--border-nav) !important;
     height: 7vh;
+    box-shadow: 0 0.125rem 0.2rem 0 rgba(0,0,0,0.2)
 }
 
 a {

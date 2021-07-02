@@ -47,9 +47,27 @@
                     </router-link>
                 </li>
                 <li>
-                    <router-link class="nav-link text-white" to="/asdasdasd">
+                    <router-link class="nav-link text-white" to="/nineflix">
+                    <i class="bi bi-shield-x"></i>
+                    Produção UNINOVE
+                    </router-link>
+                </li>
+                <li>
+                    <router-link class="nav-link text-white" to="/cursos-livres">
                     <i class="bi bi-shield-x"></i>
                     Cursos Livres
+                    </router-link>
+                </li>
+                <li>
+                    <router-link class="nav-link text-white" to="jornal-uninove">
+                    <i class="bi bi-window-sidebar"></i>
+                    Jornal Uninove
+                    </router-link>
+                </li>
+                <li>
+                    <router-link class="nav-link text-white" to="eventos">
+                    <i class="bi bi-window-sidebar"></i>
+                    Eventos Uninove
                     </router-link>
                 </li>
                 <li>
@@ -58,20 +76,13 @@
                     Iniciação Científica
                     </router-link>
                 </li>
-                <li>
-                    <router-link class="nav-link text-white" to="/asdas">
-                    <i class="bi bi-shield-x"></i>
-                    Portal Empregabilidade
-                    </router-link>
-                </li>
                     <hr>
                 <li>
-                    <router-link class="nav-link text-white" to="asda">
+                    <router-link class="nav-link text-white" to="secretaria">
                     <i class="bi bi-person-circle"></i>
                     Minha Secretaria
                     </router-link>
                 </li>
-                
                 <li>
                     <router-link class="nav-link text-white" to="asdasdasdas">
                     <i class="bi bi-speedometer2"></i>
@@ -79,6 +90,7 @@
                     </router-link>
                 </li>
                     <hr>
+                
                 <li>
                     <router-link class="nav-link text-white" to="asdasdasd">
                     <i class="bi bi-window-sidebar"></i>
@@ -92,9 +104,9 @@
                     </router-link>
                 </li>
                 <li>
-                    <router-link class="nav-link text-white" to="asdasdasd">
-                    <i class="bi bi-ui-checks"></i>
-                    Vagas Efetivas, Trainee e Estágio
+                    <router-link class="nav-link text-white" to="/asdas">
+                    <i class="bi bi-shield-x"></i>
+                    Portal Empregabilidade
                     </router-link>
                 </li>
             </ul>
@@ -112,7 +124,7 @@ export default {
 
 <style scoped>
     #sidebar {
-
+        overflow-y: auto;
         text-align: left; 
         height: -webkit-fill-available;
         background-color: #001165;
