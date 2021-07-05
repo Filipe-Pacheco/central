@@ -1,13 +1,23 @@
 <template>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row mt-5">
+            <img src="https://www.salesforce.com/content/dam/blogs/ca/Blog%20Posts/Every-Task-a-Customer-Service-Rep-Must-Do-header.png" class="img-fluid" alt="...">
+
+        </div>
+        <div class="row justify-content-center m-5">
+            <div class="col-8 mb-3">
+                <label for="exampleInputEmail1" class="form-label">O que você procura?</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+        </div>
+        <div class="row justify-content-center m-5">
             <div class="col card-padrao">
                 <i class="bi bi-headset"></i>
                 Fale com a secretaria
             </div>
             <div class="col card-padrao">
                 <i class="bi bi-ui-checks"></i>
-                Minhas Solicitações
+                <router-link class="nav-link text-white" to="/secretaria/minhas-solicitacoes">Minhas Solicitações</router-link>
             </div>
             <div class="col card-padrao">
                 <i class="bi bi-currency-dollar"></i>

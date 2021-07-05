@@ -29,7 +29,23 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "biblioteca" */ '../views/secretaria/secretaria.vue')
+    component: () => import(/* webpackChunkName: "biblioteca" */ '../views/secretaria/secretaria.vue'),
+  },
+  {
+    path: '/secretaria/minhas-solicitacoes',
+    name: 'secretaria.minhas.solicitacoes',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "secretaria.minhas.solicitacoes" */ '../views/secretaria/minhas-solicitacoes.vue')
+  },
+  {
+    path: '/secretaria/minhas-solicitacoes/nova-solicitacao',
+    name: 'secretaria.minhas-solicitacoes.nova-solicitacao',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "nova-solicitacao" */ '../views/secretaria/nova-solicitacao.vue')
   },
   {
     path: '/jornal-uninove',
@@ -58,9 +74,6 @@ const routes = [
   {
     path: '/eventos',
     name: 'eventos',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "biblioteca" */ '../views/eventos/home.vue')
   }
 ]
